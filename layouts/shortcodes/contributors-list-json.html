@@ -1,0 +1,8 @@
+<ul>
+    {{ $urlPre := .Get 0 }}
+    {{ $urlSpecific := .Get 1 }}
+    {{ $gistJ := getJSON $urlPre $urlSpecific }}
+    {{ range $gistJ }}
+        <li><a href="mailto:{{ .email }}" target="_blank">{{ .name }}</a> (@000{{ .id }})</li>
+    {{ end }}
+</ul>

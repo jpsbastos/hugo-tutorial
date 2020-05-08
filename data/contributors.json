@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Carlos Horácio",
+        "email": "carlos.horario.ext@sample.com"
+    },
+    {
+        "id": 2,
+        "name": "Jorge Bragança",
+        "email": "braganca.j.ext@sample.com"
+    },
+    {
+        "id": 3,
+        "name": "Paulo Lamares",
+        "email": "p.lamares.ext@sample.com"
+    },
+    {
+        "id": 4,
+        "name": "Peter Feldt",
+        "email": "feldt.p@sample.com"
+    },
+    {
+        "id": 5,
+        "name": "Renke Metternich Coëllmann",
+        "email": "r.metternich@sample.com"
+    }
+]

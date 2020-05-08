@@ -1,0 +1,7 @@
+<ul>
+    {{ $path := .Get "path" }}
+    {{ $sep := "," }}
+    {{ range $i, $r := getCSV $sep $path }}
+        <li><a href="mailto:{{ index $r 2 }}" target="_blank">{{ index $r 1 }} ({{ index $r 0 }})</a></li>
+    {{ end }}
+</ul>

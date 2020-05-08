@@ -1,0 +1,61 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Example Site"
+  subtitle    = "Chris Stayte's Tutorial Example Site"
+
+  cover       = "img/background.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "xiklax"
+  fbName = "xiklax"
+  githubName = "jpsbastos"
+  instagramName = "jps_bastos"
+
+  logo = "hugo-logo.png"
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Johnny Bastos"
+  authorAvatar = "avatar.jpg"
+  authorLocation = "Porto, Portugal"
+  authorWebsite = "https://github.com/jpsbastos"
+  authorDescription = "People are used to say i'm a developer!"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Project"
+  url = "/tags/project/"
+  weight = 100
+
+[[menu.main]]
+  name = "My Life"
+  url = "/categories/life/"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
